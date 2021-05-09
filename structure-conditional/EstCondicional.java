@@ -37,7 +37,6 @@ class EstCondicional{
     //Datos de salida
     System.out.println("El monto a pagar es:"+montoP);  
   }
-
   static void ejemploEstCondMultiple(){
     //Definir variables y otros
     System.out.println("Ejemplo estructura Condicional Multiple 01 en Java");
@@ -70,7 +69,6 @@ class EstCondicional{
     //Datos de salida:
     System.out.println("El postulante obtuvo la nota: "+notaFinal+" y es del area de: "+areaCarrera);
   }
-
   static void menuOptions(){
     int optionAlgotirmic=0;
     System.out.println("Select the algoritmic your test:\n 1=ejercicio01\n2=ejercicio02\n3=ejemploEstCondMultiple");
