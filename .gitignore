@@ -1,1 +1,14 @@
+*.replit
+*.class
+*.jar
+#**/*
+!**/*.cpp
+!**/*.dart
+!**/*.go
+!**/*.java
+!**/*.kt
+!**/*.py
+!**/*.rb
+!**/*.scala
 
+!**/*.xlsx
