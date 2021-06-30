@@ -1,5 +1,4 @@
 C1	Frutas
-C2	Frutas
 C3	Bebidas
 C4	Utiles escolares
 C5	Prueba 1

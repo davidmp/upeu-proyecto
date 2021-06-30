@@ -3,6 +3,7 @@ package pe.edu.upeu.app;
 import java.io.Console;
 
 import pe.edu.upeu.dao.CategoriaDao;
+import pe.edu.upeu.dao.ProductoDao;
 import pe.edu.upeu.dao.UsuarioDao;
 import pe.edu.upeu.gui.MainGUI;
 import pe.edu.upeu.modelo.CategoriaTO;
@@ -35,6 +36,7 @@ public class App {
         UtilsX ut=new UtilsX();
         CategoriaDao daoC;       
         UsuarioDao daoUso;
+        ProductoDao daoPro;
         int opcion=0;
         opcion=lt.leer(0, mensaje);
         do{            
@@ -45,7 +47,8 @@ public class App {
                 case 12: 
                 ut.clearConsole();
                 daoC=new CategoriaDao(); daoC.reporteCategoria(); break;    
-                case 2: break;
+                case 2: ut.clearConsole(); daoPro=new ProductoDao(); daoPro.crearProducto(); break;
+                case 21: daoPro=new ProductoDao(); daoPro.reportarProducto(); break;
                 case 3: break;
                 case 4: daoUso=new UsuarioDao(); daoUso.crearNuevoUsuario(); break;
                 case 5: break;
