@@ -1,0 +1,5 @@
+C1	Frutas
+C2	Verduras
+C3	Bebidas
+C4	Utiles Ecritorio
+C5	enlatados
