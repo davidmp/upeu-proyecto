@@ -56,7 +56,7 @@ public class App {
                 case 21: proDao=new ProductoDao(); proDao.reporteProductosT(); break;
                 case 3:uDao=new UsuarioDao(); uDao.registarUsuario(); break;
                 case 4: venDao=new VentaDao(); venDao.registroVentaGeneral();  break;
-                case 5:break;
+                case 5: venDao=new VentaDao(); venDao.reporteProductosMasVendidos(); break;
                 default: System.out.println("Opcion no existe!"); break;    
             }             
             if (opcionAlg!=0) {  
